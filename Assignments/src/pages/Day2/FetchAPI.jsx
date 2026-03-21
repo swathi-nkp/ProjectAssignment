@@ -26,7 +26,7 @@ fetchData()
 
   return (
     <>
-      <div className="p-2 font-serif">
+      <div className="p-2 font-serif flex flex-col gap-1">
         <h1 className="text-2xl font-bold">Fetch API</h1>
          
          {showData.map((e,i)=>(
