@@ -3,7 +3,7 @@ import NavBar from './NavBar'
 import { Route , Routes} from 'react-router-dom'
 import Home from './Home'
 import Task from './Task'
-import Task1 from '../pages/day1/Task1'
+import Task1 from '../pages/Day1/Task1'
 import FetchAPI from '../pages/Day2/FetchAPI'
 import CandidatesData from '../pages/Day3/CandidatesData'
 
