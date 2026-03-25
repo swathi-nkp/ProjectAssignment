@@ -5,6 +5,7 @@ import Home from './Home'
 import Task from './Task'
 import Task1 from '../pages/day1/Task1'
 import FetchAPI from '../pages/Day2/FetchAPI'
+import CandidatesData from '../pages/Day3/CandidatesData'
 
 const AppRoutes = () => {
   return (
@@ -15,6 +16,7 @@ const AppRoutes = () => {
         <Route path = "/task" element={<Task/>}/>
         <Route path="/day1task" element={<Task1/>}/>
         <Route path = "/day2task" element = {<FetchAPI/>}/>
+        <Route path = "/day3task" element ={<CandidatesData/>}/>
       </Routes>
     </>
   )

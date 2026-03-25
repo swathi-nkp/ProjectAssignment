@@ -3,7 +3,8 @@ import React from 'react'
 const Home = () => {
   return (
     <>
-      <div>Home</div>
+    
+      <img src="/mern.webp"className='w-420 h-180'/>
     </>
   )
 }
