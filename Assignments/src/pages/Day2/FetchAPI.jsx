@@ -30,7 +30,9 @@ fetchData()
         <h1 className="text-2xl font-bold">Fetch API</h1>
          
          {showData.map((e,i)=>(
-<h1 key={i}>{e.title}</h1>
+<div key={i}>{e.title}
+</div>
+
          ))
          
          }
