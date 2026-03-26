@@ -2,9 +2,9 @@ import { NavLink } from "react-router-dom"
 const NavBar = () => {
   return (
     <>
-     <div className="bg-gray-50 flex  justify-between text-2xl font-serif items-center">
+     <div className="bg-gray-100 flex  justify-between font-serif items-center">
         
-        <img src="/Ass2.jfif" className="w-20 h-20"/>
+        <img src="/Ass2.jfif" className="w-15 h-15"/>
         <div>Assignments</div>
         <div className="flex gap-15 mx-10 ">
          <NavLink to ="/" className = {({ isActive }) =>

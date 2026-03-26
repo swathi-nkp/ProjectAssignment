@@ -29,11 +29,11 @@ alert(u.instructions.join("\n"))
 
   return (
     <>
-    <div className='flex gap-2 justify-center text-4xl text-center items-center font-serif p-5'>{<TbToolsKitchen2/>}Food Recipes</div>
-    <div className="flex justify-center items-center gap-5 flex-wrap">
+    <div className='flex gap-2 justify-center text-2xl text-center items-center font-serif p-5'>{<TbToolsKitchen2/>}Food Recipes</div>
+    <div className="flex justify-center items-center gap-4 flex-wrap">
       {showData.map((e,i)=>(
-        <div key={i} className='p-4 bg-cyan-200  flex flex-col justify-around items-center text-center w-90 h-90 gap-2'>
-        <h1 className='font-bold text-2xl'>{e.name}</h1>
+        <div key={i} className='p-4 bg-cyan-200  flex flex-col justify-around items-center text-center w-90 h-80 gap-1'>
+        <h1 className='font-bold '>{e.name}</h1>
         <h1>{e.ingredients}</h1>
         <button onClick={()=> handleclick(e)} className='bg-cyan-700 p-2 w-40 text-amber-50 rounded-2xl'>Instruction</button></div> 
      ))}

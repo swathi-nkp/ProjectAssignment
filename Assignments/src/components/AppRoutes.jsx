@@ -7,6 +7,8 @@ import Task1 from '../pages/Day1/Task1'
 import FetchAPI from '../pages/Day2/FetchAPI'
 import CandidatesData from '../pages/Day3/CandidatesData'
 import Datafetch from '../pages/Day4/Datafetch'
+import Providercontext from '../pages/Day5/Providercontext'
+import Timer from '../pages/Day5/Timer'
 const AppRoutes = () => {
   return (
     <>
@@ -18,6 +20,7 @@ const AppRoutes = () => {
         <Route path = "/day2task" element = {<FetchAPI/>}/>
         <Route path = "/day3task" element ={<CandidatesData/>}/>
         <Route path = "/day4task" element ={<Datafetch/>}/>
+        <Route path ="/day5task" element ={<Providercontext><Timer/></Providercontext>}/>
       </Routes>
     </>
   )

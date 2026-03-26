@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <>
     
-      <img src="/mern.webp"className='w-420 h-180'/>
+      <img src="/mern.webp"className='w-400 h-133'/>
     </>
   )
 }

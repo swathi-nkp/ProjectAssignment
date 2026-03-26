@@ -35,10 +35,10 @@ export default function VotingPage() {
   return (
     <>
     <div className="min-h-screen bg-gray-100 flex flex-col items-center p-6">
-      <h1 className="text-3xl font-bold mb-6">Vote Your Candidate</h1>
+      <h1 className="text-large font-bold mb-6">Vote Your Candidate</h1>
 
       
-      <div className="flex flex-col gap-6 w-400 ">
+      <div className="flex flex-col gap-6 w-300 ">
         {candidatesData.map((candidate) => (
           <div
             key={candidate.id}
