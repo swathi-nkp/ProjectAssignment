@@ -25,6 +25,8 @@ const Task = () => {
         <button style={buttonstyle} onClick={()=>navigate("/day3task")} >Day 03</button>
         <button style={buttonstyle} onClick={()=>navigate("/day4task")} >Day 04</button>
         <button style={buttonstyle} onClick={()=>navigate("/day5task")} >Day 05</button>
+        <button style={buttonstyle} onClick={()=>navigate("/day6task")} >Day 06</button>
+        <button style={buttonstyle} onClick={()=>navigate("/day7task")} >Day 07</button>
       </div>
     </>
   )
